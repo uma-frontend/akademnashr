@@ -24,31 +24,31 @@
 - 4K: 2560px
 
 #### Colors + var
-- Background Color
-- Color
-- color 1
-- color 2
-- color 3
-- color 4
+- Background Color: #fff
+- Color text: #000
+- Color main: #FF7500
+- Color white: #fff
 
 #### Body Copy + var
-- Font Family:
-- Font size:
-- Font Weight:
+- Font Family: Roboto
+- Font size: 16px
+- Font Weight: 400
 
 #### Font
-- Family: [Lexend Deca]
-- Weights: 400
+- Family: [Roboto]
+- Weights: 400, 500, 700
 
-- Family: [Big Shoulders Display]
+- Family: [Roboto Condensed]
 - Weights: 700
 
 
 #### Container
-- max-width:
-- padding:
+- max-width: 1100px
+- padding: 15px
 
 #### SECTIONS
 - SITE HEADER
-- MAIN SECTION
+- Feaures
+- Hero
+- Sale
 - SITE FOOTER
