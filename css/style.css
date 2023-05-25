@@ -213,8 +213,6 @@ li{
 .site-sale {
    padding: 120px 0px 160px 0px;
 }
-.site-sale__container {
-}
 .sale {
    height: 419px;
    background-color: #252420;
@@ -224,8 +222,6 @@ li{
    display: flex;
    justify-content: space-between;
    align-items: flex-start;
-}
-.sale__content {
 }
 .sale__heading {
    width: 375px;
@@ -248,10 +244,6 @@ li{
 }
 .orange {
    color: var(--accent-color);
-}
-.sale__btn {
-}
-.button {
 }
 .sale__img {
    transform: translateY(-149px);
