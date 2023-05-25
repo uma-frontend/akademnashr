@@ -57,7 +57,14 @@ li{
 
 /* BUTTON */
 .button{
-
+   display: inline-block;
+   padding: 12px 24px;
+   font-size: 13px;
+   font-weight: 700;
+   letter-spacing: 0.5px;
+   background-color: var(--accent-color);
+   color: var(--white-color);
+   border-radius: 4px;
 }
 
 .line{
@@ -75,31 +82,44 @@ li{
 /* ===== LET'S GO CODING =====*/
 
 /*SITE HEADER*/
-.site-header {
-}
 .site-header__cap {
-}
-.container {
-}
-.site-header__container {
+   width: 100%;
+   height: 5px;
+   background-color: var(--accent-color);
 }
 .site-header__content {
+   padding: 16px 0px;
 }
 .sitenav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
 .sitenav__logo {
+   display: flex;
 }
 .sitenav__list {
+   display: flex;
+   align-items: center;
 }
-.sitenav__item {
+.sitenav__item:not(:last-child) {
+   margin: 0px 32px 0px 0px;
 }
 .sitenav__link {
+   color: var(--black-color);
+   font-size: 13px;
+   font-weight: 500;
+   line-height: 15.23px;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   padding: 0px 0px 4px 0px;
+   border-bottom: 3px solid transparent;
+   transition: all 0.3s ease-in-out;
 }
-.sitenav__btn {
+.sitenav__link.sitenav__link-active,
+.sitenav__link:hover{
+   border-bottom: 3px solid var(--accent-color);
 }
-.button {
-}
-
 
 /*MAIN SECTION*/
 
