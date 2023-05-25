@@ -61,7 +61,7 @@ li{
 }
 
 .line{
-   
+
 }
 
 /* CONTAINER */
@@ -75,6 +75,30 @@ li{
 /* ===== LET'S GO CODING =====*/
 
 /*SITE HEADER*/
+.site-header {
+}
+.site-header__cap {
+}
+.container {
+}
+.site-header__container {
+}
+.site-header__content {
+}
+.sitenav {
+}
+.sitenav__logo {
+}
+.sitenav__list {
+}
+.sitenav__item {
+}
+.sitenav__link {
+}
+.sitenav__btn {
+}
+.button {
+}
 
 
 /*MAIN SECTION*/
