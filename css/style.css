@@ -161,7 +161,55 @@ li{
 }
 
    /*SITE FEAURES*/
-
+.site-feaures {
+   padding: 210px 0px;
+}
+.site-feaures__container {
+}
+.line {
+   margin: 0px 0px 24px 0px;
+}
+.feaures__heading {
+   width: 440px;
+   font-family: var(--other-font);
+   font-weight: 700;
+   font-size: 72px;
+   line-height: 1.2;
+   margin: 0px 0px 72px 0px;
+}
+.feaures__list {
+   display: flex;
+   align-items: center;
+   margin: 0px 0px 0px -40px;
+}
+.feaures__item {
+   margin: 0px 0px 0px 40px;
+}
+.feaures__icon {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   background-color: rgba(255, 117, 0, 0.2);
+   padding: 22px;
+   margin: 0px 0px 32px 0px;
+}
+.feaures__icon img{
+   width: 56px;
+   height: 56px;
+}
+.feaures__title {
+   font-family: var(--other-font);
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 28.8px;
+   margin: 0px 0px 12px 0px;
+}
+.feaures__infos{
+   width: 340px;
+}
+.feaures__info {
+   line-height: 24px;
+}
    /*SITE SALE*/
 
 
