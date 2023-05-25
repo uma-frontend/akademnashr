@@ -132,6 +132,7 @@ li{
    color: var(--white-color);
    display: flex;
    justify-content: space-between;
+   height: 488px;
 }
 .hero__content {
    width: 390px;
@@ -163,8 +164,6 @@ li{
    /*SITE FEAURES*/
 .site-feaures {
    padding: 210px 0px;
-}
-.site-feaures__container {
 }
 .line {
    margin: 0px 0px 24px 0px;
@@ -211,7 +210,52 @@ li{
    line-height: 24px;
 }
    /*SITE SALE*/
-
+.site-sale {
+   padding: 120px 0px 160px 0px;
+}
+.site-sale__container {
+}
+.sale {
+   height: 419px;
+   background-color: #252420;
+   color: var(--white-color);
+   border-radius: 12px;
+   padding: 64px;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+.sale__content {
+}
+.sale__heading {
+   width: 375px;
+   margin: 0;
+   font-family: var(--other-font);
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 1.2;
+   margin: 0px 0px 24px 0px;
+}
+.sale__infos{
+   width: 445px;
+   margin: 0px 0px 24px 0px;
+}
+.sale__info {
+   line-height: 1.5;
+}
+.sale__info:not(:last-child){
+   margin: 0px 0px 12px 0px;
+}
+.orange {
+   color: var(--accent-color);
+}
+.sale__btn {
+}
+.button {
+}
+.sale__img {
+   transform: translateY(-149px);
+}
 
 /*SITE FOOTER*/
 
