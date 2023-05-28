@@ -5,6 +5,7 @@
    --other-font: "Roboto Condensed", sans-serif;
    --accent-color: #FF7500;
    --main-text-color: #000;
+   --other-color: #252420;
    --bg-color: #fff;
    --black-color: #000;
    --white-color: #fff;
@@ -96,8 +97,19 @@ li{
    justify-content: space-between;
    align-items: center;
 }
+.site-footer__logo,
 .sitenav__logo {
    display: flex;
+   transition: opacity 0.2s ease-in-out;
+}
+   /*hover and active style*/
+.site-footer__logo:hover,
+.sitenav__logo:hover{
+   opacity: 0.8;
+}
+.site-footer__logo:active,
+.sitenav__logo:active{
+   opacity: 0.6;
 }
 .sitenav__list {
    display: flex;
@@ -115,18 +127,34 @@ li{
    text-transform: uppercase;
    padding: 0px 0px 4px 0px;
    border-bottom: 3px solid transparent;
-   transition: all 0.3s ease-in-out;
+   transition: border-bottom 0.3s ease-in-out;
+   transition: color 0.2s ease-in-out;
 }
-.sitenav__link.sitenav__link-active,
-.sitenav__link:hover{
+.sitenav__link.sitenav__link-active{
    border-bottom: 3px solid var(--accent-color);
 }
-
+   /*hover and active style*/
+.sitenav__link:hover{
+   color: var(--accent-color);
+}
+.sitenav__link:active{
+   opacity: 0.6;
+}
+   /*hover and active style*/
+.button{
+   transition: opacity 0.2s ease-in-out;
+}
+.button:hover{
+   opacity: 0.8;
+}
+.button:active{
+   opacity: 0.6;
+}
 /*MAIN SECTION*/
 
    /*SITE HERO*/
 .site-hero {
-   background-color: #252420;
+   background-color: var(--other-color);
 }
 .hero {
    color: var(--white-color);
@@ -157,10 +185,32 @@ li{
    margin: 0px 0px 2px 0px;
 }
 .hero__images{
+   width: 510px;
+   height: 510px;
+   object-fit: cover;
    border-radius: 8px;
    transform: translateY(40px);
+   position: relative;
+   z-index: 2;
 }
-
+.hero__img-wrap{
+   width: 510px;
+   height: 510px;
+   object-fit: cover;
+   position: relative;
+}
+.hero__img-wrap:after{
+   width: 510px;
+   height: 510px;
+   content: " ";
+   position: absolute;
+   top: 64px;
+   left: 24px;
+   background-color: var(--accent-color);
+   opacity: 0.6;
+   z-index: 1;
+   border-radius: 8px;
+}
    /*SITE FEAURES*/
 .site-feaures {
    padding: 210px 0px;
@@ -215,7 +265,7 @@ li{
 }
 .sale {
    height: 419px;
-   background-color: #252420;
+   background-color: var(--other-color);
    color: var(--white-color);
    border-radius: 12px;
    padding: 64px;
@@ -267,6 +317,21 @@ li{
 .site-footer__social:not(:last-child){
    margin: 0px 16px 0px 0px;
 }
+.site-footer__social-link{
+   display: flex;
+}
+.site-footer__icon{
+   color: var(--other-color);
+   font-size: 24px;
+   transition: color 0.2s ease-in-out;
+}
+   /*hover and active style*/
+.site-footer__social-link:hover .site-footer__icon{
+   color: var(--accent-color);
+}
+.site-footer__social-link:active .site-footer__icon{
+   opacity: 0.6;
+}
 .site-footer__line {
    width: 100%;
    height: 2px;
@@ -285,7 +350,15 @@ li{
    margin: 0px 0px 16px 0px;
 }
 .site-footer__link{
-   color: #252420;
+   color: var(--other-color);
+   transition: color 0.2s ease-in-out;
+}
+   /*hover and active style*/
+.site-footer__link:hover{
+   color: var(--accent-color);
+}
+.site-footer__link:active{
+   opacity: 0.6;
 }
 
 
